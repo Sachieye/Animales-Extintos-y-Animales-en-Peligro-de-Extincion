@@ -1,0 +1,315 @@
+body{
+
+    background-color: #96ac60;
+    font-family:Courier, monospace;
+    color: darkgreen;
+}
+
+header{
+    
+    display: block;
+    min-height: 100vh;
+    background-color: #31470b;
+    background-image: url('https://cdn.pixabay.com/photo/2021/03/10/16/09/ladybug-6084910_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:whitesmoke;
+}
+
+nav{
+
+    float:rigth;
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+nav a{
+
+    border: 2px solid darkgoldenrod;
+    margin: 10px;
+    text-decoration: none;
+    padding-left:15px ;
+    color: darkgoldenrod;
+    background-color: #31470b;
+    
+}
+
+nav a:hover{
+
+    border: 2px solid #31470b;
+    margin: 10px;
+    text-decoration: none;
+    padding-left:15px ;
+    color:#31470b;
+    background-color: darkgoldenrod;
+}
+
+main{
+
+    background-color: #b7cd7f;
+    padding: 20px;
+}
+
+h1{
+
+    text-align: center;
+    border-bottom: 2px dashed darkgreen;
+}
+
+h1:hover{
+     
+    text-align: center;
+    border-bottom: 2px dashed green;
+
+}
+
+.introduccion{
+   
+    background-color: lightgoldenrodyellow;
+    padding-bottom: 50px;
+
+}
+
+.introduccion p{
+
+    display: flex;
+    margin: opx auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.introduccion article img{
+
+    display: flex;
+    width: 580px;
+    margin: 0px auto;
+    border:8px double darkred;
+    line-height: 100px;
+    opacity:0.5;
+
+}
+
+.introduccion article img:hover{
+
+    display: flex;
+    width: 580px;
+    margin: 0px auto;
+    border:8px double darkred;
+    line-height: 100px;
+    opacity:1;
+
+}
+
+aside{
+     
+    background-color: #A6C620;
+    padding: 20px;
+    margin-top: 30px ;
+
+}
+
+aside::before{
+
+    display:block;
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    Width:30px;
+    height:30px;
+    opacity:0.5;
+    margin-bottom: 10px;
+
+}
+
+aside::after{
+
+    display:block;
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    Width:30px;
+    height:30px;
+    opacity:0.5;
+    margin-bottom: 10px;
+
+}
+
+aside:hover:before{
+
+    display:block;
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    Width:30px;
+    height:30px;
+    opacity:1;
+    margin-bottom: 10px;
+
+}
+
+aside:hover:after{
+
+    display:block;
+    content: url("/uploads/2021/03/paw-155322_1280%201_0_1614946877.png");
+    Width:30px;
+    height:30px;
+    opacity:1;
+    margin-bottom: 10px;
+
+}
+
+
+aside h3{
+
+    border-bottom: 6px dashed darkgreen;
+    border-radius: 10%;
+}
+
+#Extintos{
+
+    background-color: lightgoldenrodyellow;
+    padding-bottom: 50px;
+}
+
+#Extintos h2{
+
+    margin: opx auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-bottom: 3px solid darkgreen;
+}
+
+#Extintos article{
+    
+    padding:20px 50px 20px 50px ;
+}
+
+#Extintos article h4{
+
+    border:3px solid darkkhaki;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+#Extintos article img{
+
+    display: flex;
+    width: 580px;
+    margin: 0px auto;
+    border:10px inset yellowgreen;
+    line-height: 100px;
+}
+
+#peligro{
+   
+   background-color: lightgoldenrodyellow;
+   padding-bottom: 50px;
+
+}
+
+#peligro article h2{
+
+    margin: opx auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-bottom: 3px solid darkred;
+
+}
+
+#peligro article ul{
+
+    font-size: larger;
+    color: #9b870c;
+}
+
+#peligro .causas h5{
+
+    font-size: 40px;
+    border-bottom: 10px solid yellowgreen;
+    text-align: right;
+}
+
+#peligro table{
+
+    border: 2px double darkgoldenrod;
+    margin-bottom: 30px;
+    margin: opx auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px
+}
+
+#peligro td{
+
+    border: 2px double darkgoldenrod;
+}
+
+#peligro td:hover{
+
+    border: 2px double grey;
+    background-color: grey;
+    color: red;
+}
+
+#peligro th{
+
+    border: 2px double darkgoldenrod;
+}
+
+#peligro table p{
+
+    font-size: 30px;
+}
+
+tr:first-child{
+
+    background-color:darkgoldenrod ;
+}
+
+#peligro  img{
+
+    display: flex;
+    width: 580px;
+    margin: 0px auto;
+    border:10px inset darkorange;
+    line-height: 100px;
+}
+
+footer{
+ 
+    position: absolute;
+    background-color: #A6C620;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer p{
+
+    margin: opx auto;
+    text-align: center;
+    line-height: 20px
+}
+
+footer a{
+
+    text-decoration: none;
+    color: white;
+    text-align: right;
+    border: 2px dotted white;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+footer a:visited{
+
+    text-decoration: none;
+    color: orange;
+    text-align: right;
+    border: 2px dotted orange;
+    padding: 10px;
+    margin-top: 10px;
+
+}
